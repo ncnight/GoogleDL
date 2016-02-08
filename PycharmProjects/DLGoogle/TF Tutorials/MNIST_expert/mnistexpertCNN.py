@@ -2,7 +2,6 @@ import input_data
 import tensorflow as tf
 
 
-
 x = tf.placeholder("float", shape = [None, 784])
 y_ = tf.placeholder("float", shape=[None, 10])
 
